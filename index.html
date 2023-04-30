@@ -48,12 +48,14 @@
         <i class="bi bi-envelope-fill"></i><a href="mailto:peernisse@gmail.com">info@river-planner.com</a>
         <i class="bi bi-phone-fill phone-icon"></i> +1 385 347 9821
       </div>
+      <!--
       <div class="social-links d-none d-md-block">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+        <a href="#" class="twitter" aria-label="Follow us on Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook" aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram" aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin" aria-label="Follow us on Linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
+      -->
     </div>
   </section>
 
@@ -67,15 +69,17 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#featured-services">Home</a></li>
+          <li><a class="nav-link scrollto active" href="">Home</a></li>
           <li><a class="nav-link scrollto" href="#quickstart">Quickstart Guide</a></li> 
           <!--
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> 
           <li><a class="nav-link scrollto" href="#team">Team</a></li> 
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          -->
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#disclaimer">Disclaimer</a></li>
+              <!--
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -87,14 +91,12 @@
               </li>
               <li><a href="#">Drop Down 2</a></li>
               <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+            -->
+              <li><a href="#privacy">Privacy Policy</a></li>
             </ul>
           </li> 
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-
-          -->
-
-          <li><a class="getstarted scrollto" href="https://apps.river-planner.com/riverPlanner" target="_blank">Launch River-Planner App</a></li>
+          <!--<li><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+          <li><a class="getstarted scrollto" href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer">Launch River-Planner App</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -102,66 +104,87 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= 
+  <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="heroCarousel" data-bs-interval="10000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner" role="group">
 
-        <!-- Slide 1 
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/shiny1.jpg)">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-scenic-1.jpeg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Datatime</span></h2>
-              <p class="animate__animated animate__fadeInUp">Project-level data management and analysis consulting.</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span>River Planner</span></h2>
+              <p class="animate__animated animate__fadeInUp">We love river trips. Nothing compares to a multi-day journey through a scenic river corridor with exciting whitewater, pristine wildlife, and your good friends, old and new. If you love to plan and execute your own adventure river trips, this app is here to help.</p>
+              <a href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer" class="btn-get-started animate__animated animate__fadeInUp scrollto">Start Planning</a>
             </div>
           </div>
         </div>
 
-        <!-- Slide 2 
-        <div class="carousel-item" style="background-image: url(assets/img/slide/fielddata.jpg)">
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-kitchen-1.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Project Data Flow Consulting</h2>
-              <p class="animate__animated animate__fadeInUp">Data-centric projects are dynamic and unpredictable. Setting up the project data systems for success is 
-                key to avoiding errors, inefficiencies and project overruns. We can help from study design, data acquisition, data management, 
-                analysis and reporting.</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <h2 class="animate__animated animate__fadeInDown">Menu Planner</h2>
+              <p class="animate__animated animate__fadeInUp">Whether you are planning the whole menu, or spreading it out to your crew, the menu planner will help. Explore a crowd-sourced database of awesome river meals to use, modify, or create anew.</p>
+              <a href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer" class="btn-get-started animate__animated animate__fadeInUp scrollto">Check It Out</a>
             </div>
           </div>
         </div>
 
-        <!-- Slide 3 
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-boat-1.jpg)">
           <div class="carousel-container">
             <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Small Business Tools</h2>
-              <p class="animate__animated animate__fadeInUp">We specialize in upping your small business data management and analytics game. Whether you want to leverage 
-                your existing tools, or desire a custom solution, we can help.
-              </p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              <h2 class="animate__animated animate__fadeInDown">Equipment Planner</h2>
+              <p class="animate__animated animate__fadeInUp">Comprehensive gear checklists, user recommendations, and expert advice.</p>
+              <a href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer" class="btn-get-started animate__animated animate__fadeInUp scrollto">Check It Out</a>
             </div>
           </div>
         </div>
 
+        <!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-boat-3.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Travel Planner</h2>
+              <p class="animate__animated animate__fadeInUp">Record crew information such as emergency contacts and alergies or medical requirements, record your vehicle travel and shuttle plans.</p>
+              <a href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer" class="btn-get-started animate__animated animate__fadeInUp scrollto">Check It Out</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-boat-2.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Resources</h2>
+              <p class="animate__animated animate__fadeInUp">Common trip planning resource links to lottery information, shuttle service, wilderness medicine resources and more.</p>
+              <a href="#resources" class="btn-get-started animate__animated animate__fadeInUp scrollto">Check It Out</a>
+            </div>
+          </div>
+        </div>
+        <!-- END HERO SLIDES -->
       </div>
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" aria-label = "previous" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <a class="carousel-control-next" href="#heroCarousel" role="button" aria-label = "next" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
 
     </div>
   </section><!-- End Hero -->
 
-
   <main id="main">
+    <!-- ======= Intro Section ======= -->
+    <section id="welcome" class="featured-services">
+      <h1 style="margin-left:10px;">Create Custom River Trip Meal Plans</h1>
+    </section><!-- End Featured Services Section -->
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services section-bg">
@@ -171,7 +194,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-              <h4 class="title"><a href="">Plan All or Part of a Trip Menu</a></h4>
+              <h4 class="title"><a href="">Plan All or Part of a River Trip Menu</a></h4>
               <p class="description">
                 Welcome to the River-Planner application landing page! 
               </p>
@@ -179,17 +202,19 @@
                 The River-Planner application can help plan meals and generate a Mobile-Friendly shopping
                 list and on-river reference menu. A link to launch the application is below. 
               </p>
+              <img src="assets/img/instructions/big-drops.jpg" alt="Custom trip plan">
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-laptop"></i></div>
-              <h4 class="title"><a href="">Store Custom Trips, Meals and Ingredients with your Profile</a></h4>
+              <h4 class="title"><a href="">Store Custom Trip Plans, Meals and Ingredients with your Profile</a></h4>
               <p class="description">
                 Using the River-Planner app requires you to Sign Up with the authentication service 
                 Auth0. Having a profile in the app means you can create and save customized meals and meal plans
                 for future use. 
               </p>
+              <img src="assets/img/instructions/trip-menu.png" alt="Custom trip plan" width = 150 height = 250>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -203,11 +228,10 @@
               <p class="description">
                 Download your trip daily menu for use on a mobile device when on the river.
               </p>
+              <img src="assets/img/instructions/step_07bb.png" alt="Export Shopping List and Menu Cross out Shopping Items" width = 150 height = 250>
             </div>
           </div>
-          
         </div>
-
       </div>
     </section><!-- End Featured Services Section -->
 
@@ -255,246 +279,245 @@
           <p>River-Planner is designed for mobile use and to be user friendly.
             Below are the basic steps for using the app to your advantage, and the launch button when you're ready launch the app!
           </p>
-          <div class="navbar" style="display: flex; flex-wrap: wrap; align-items:center; justify-content: space-around; align-content: space-between; padding-top: 10px;">
-            <a class="getstarted scrollto" href="https://apps.river-planner.com/riverPlanner" target="_blank">Launch River-Planner App</a>
+          <div class="navbar launch-app">
+            <a class="getstarted scrollto" href="https://apps.river-planner.com/riverPlanner" target="_blank" rel="noopener noreferrer">Launch River-Planner App</a>
           </div>
           <br/>
-          <div class="navbar" style="display: flex; flex-wrap: wrap; align-items:center; justify-content: space-around; align-content: space-between; padding-top: 10px;">
-            <h3>Instructions</h3>  
+          <div class="navbar launch-app">
+            <h3>Instructions</h3>
           </div>
-          
+          <h6><- Explore Instructions -></h6>  
         </div>
 
-        <div class="row no-gutters" style="padding-left: 10px; padding-right: 10px;">
+        <div class="row no-gutters quickstart-col">
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>01</span>
             <h4>Login or Sign Up</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_01.png" alt="Login or Sign Up" width = 300 height = 500>
-            </div>
-            <p>The application needs your email address to customize your experience and save your work. 
+            <img src="assets/img/instructions/step_01.png" class="card-img-top" alt="Login or Sign Up">
+            <div class="card-body">
+              <p class="card-text">
+              The application needs your email address to customize your experience and save your work. 
               When you launch the applicatiopn you will need to Sign Up or Login with 
-            our third-party authentication service Auth0. This provides the option to enter an email and password, 
-            or sign in with Google. We store your email address to create your database profile and that's it.</p>
-            
+              our third-party authentication service Auth0. This provides the option to enter an email and password, 
+              or sign in with Google. We store your email address to create your database profile and that's it.
+              </p>
+            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>02</span>
             <h4>Create a Trip</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_02.png" alt="Create a Trip" width = 300 height = 500>
-            </div>
-            <p>First step is to create a trip and click Save Trip. This starts a trip in the app, which can be saved to the database 
+            <img src="assets/img/instructions/step_02.png" class="card-img-top" alt="Create a Trip">
+            <div class="card-body">
+              <p class="card-text">
+              First step is to create a trip and click Save Trip. This starts a trip in the app, which can be saved to the database 
               as soon as you have entered at least one meal. It is recommended that you scroll to and click Save Trip Often
               to avoid losing work and having to re-enter things.
-            </p>
+              </p>
+            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>03</span>
             <h4>Add Meals to your Trip</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_03b.png" alt="Add Meals to your Trip" width = 300 height = 500>
+            <img src="assets/img/instructions/step_03b.png" class="card-img-top" alt="Add Meals to your Trip">
+            <div class="card-body">
+              <p class="card-text">
+                River-Planner has several meals loaded to choose from. These are basic templates
+                designed to be a basis for your own customization (you can also design your own meals 
+                as you will see). To add a meal to your trip, select a river day and click the "+" button to add 
+                it to your trip menu. Meals added will appear under "Customize Trip Menu...", grouped by river day.
+              </p>
             </div>
-            <p>River-Planner has several meals loaded to choose from. These are basic templates
-              designed to be a basis for your own customization (you can also design your own meals 
-              as you will see). To add a meal to your trip, select a river day and click the "+" button to add 
-              it to your trip menu. Meals added will appear under "Customize Trip Menu...", grouped by river day.
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>04</span>
             <h4>Customize Trip Meals</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_04a.png" alt="Customize Trip Meals" width = 300 height = 500>
-            </div>
-            <p>Any meals added to your trip are listed by River Day and are fully customizable. Click the Pencil to open the Edit Meal Interface, 
+            <img src="assets/img/instructions/step_04a.png" class="card-img-top" alt="Customize Trip Meals">
+            <div class="card-body">
+              <p class="card-text">
+              Any meals added to your trip are listed by River Day and are fully customizable. Click the Pencil to open the Edit Meal Interface, 
               Or click Trash to remove a meal from that day.
-            </p>
+              </p>
+            </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>05</span>
             <h4>Edit Meal Interface | Adjusting People</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_04b.png" alt="Edit Meal Interface Adjusting People" width = 300 height = 500>
+            <img src="assets/img/instructions/step_04b.png" class="card-img-top" alt="Edit Meal Interface Adjusting People">
+            <div class="card-body">
+              <p class="card-text">
+                The number of adults and kids can be modified for a given meal. This is to accomodate times where people may join or exit a river trip 
+                at an intermediate point. This happens from time to time, so the River-Planner app can account for this. Changing the number of people in the 
+                Edit Meal Interface will re-calculate the ingredient quantities for the meal being edited.
+              </p>
             </div>
-            <p>The number of adults and kids can be modified for a given meal. This is to accomodate times where people may join or exit a river trip 
-              at an intermediate point. This happens from time to time, so the River-Planner app can account for this. Changing the number of people in the 
-              Edit Meal Interface will re-calculate the ingredient quantities for the meal being edited.
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>06</span>
             <h4>Edit Meal Interface | Ingredient List</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_04c.png" alt="Edit Meal Interface Ingredient List" width = 300 height = 500>
+            <img src="assets/img/instructions/step_04c.png" class="card-img-top" alt="Edit Meal Interface Ingredient List">
+            <div class="card-body">
+              <p class="card-text">
+                Ingredients are listed with the ingredient name, description, units of calculation, multiplier, and the 
+                current calculated quantity to have for the meal. Quantity is calculated based on the number of adults and 
+                kids entered when setting up the trip, or the adjusted number of people, if modified.
+              </p>
+              <br/>
+              <p>
+                If the quantity of an ingredient does not look right for what you have in mind, simply change the quantity value and the multiplier will adjust to accomodate 
+                future changes to the number of people. Changes to quantity apply only to the meal being edited, and would need to be repeated for other instances of the ingredient 
+                throughout the trip menu, if those changes are desired elsewhere as well. Click the Trash icon to
+                remove an ingredient from that meal.
+              </p>
             </div>
-            <p>Ingredients are listed with the ingredient name, description, units of calculation, multiplier, and the current calculated quantity to have for the meal. 
-              Quantity is calculated based on the number of adults and kids entered when setting up the trip, or the adjusted number of people, if modified.
-               
-            </p>
-            <br/>
-            <p>
-              If the quantity of an ingredient does not look right for what you have in mind, simply change the quantity value and the multiplier will adjust to accomodate 
-              future changes to the number of people. Changes to quantity apply only to the meal being edited, and would need to be repeated for other instances of the ingredient 
-              throughout the trip menu, if those changes are desired elsewhere as well. Click the Trash icon to
-              remove an ingredient from that meal.
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>07</span>
             <h4>Edit Meal Interface | Add Ingredients</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_04d.png" alt="Edit Meal Interface Add Ingredients" width = 300 height = 500>
+            <img src="assets/img/instructions/step_04d.png" class="card-img-top" alt="Edit Meal Interface Add Ingredients">
+            <div class="card-body">
+              <p>
+                The drop-down selector lists available ingredients. Select an ingredient from the drop-down picker, then Click the '+' icon to add that ingredient to the meal. 
+                If using a keyboard, typing zooms alphabetically to ingredients as you type, on mobile this is usually not the case and only the scrolling picker is available. 
+              </p>
             </div>
-            <p>The drop-down selector lists available ingredients. Select an ingredient from the drop-down picker, then Click the '+' icon to add that ingredient to the meal. 
-              If using a keyboard, typing zooms alphabetically to ingredients as you type, on mobile this is usually not the case and only the scrolling picker is available. 
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>08</span>
             <h4>Edit Meal Interface | Create New Ingredients</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_05.png" alt="Edit Meal Interface Create New Ingredients" width = 300 height = 500>
+            <img src="assets/img/instructions/step_05.png" class="card-img-top" alt="Edit Meal Interface Create New Ingredients">
+            <div class="card-body">
+              <p>
+                Enter information for your new ingredient in the Orange Form Fields. Use the Orange Quantity Calculator Fields (Quantity, Serves) to calculate a multiplier 
+                for your ingredient. What you choose for Units is up to you. It may make sense to have units of "ounces", or it might make sense to use units such as 
+                "12 ounce can" or "Standard box of Zattaran's rice".
+              </p>
+              <br/>
+              <p>
+                Enter values for "Quantity" and "Serves" to calculate a multiplier for the ingredient. In this example, the user searched online for packaged dried dates 
+                and inspected the package weight and Serving Size information to ascertain that 12 ounces of dates serves 7 people, as per the package label. 
+                Click the '+' icon to save your new ingredient to the database. It will then be available in the ingredient drop-down picker and you can add it to your meal.
+                The ingredient will be available to you any time you use the River-Planner application.
+              </p>
             </div>
-            <p>Enter information for your new ingredient in the Orange Form Fields. Use the Orange Quantity Calculator Fields (Quantity, Serves) to calculate a multiplier 
-              for your ingredient. What you choose for Units is up to you. It may make sense to have units of "ounces", or it might make sense to use units such as 
-              "12 ounce can" or "Standard box of Zattaran's rice".
-            </p>
-            <br/>
-            <p>
-              Enter values for "Quantity" and "Serves" to calculate a multiplier for the ingredient. In this example, the user searched online for packaged dried dates 
-              and inspected the package weight and Serving Size information to ascertain that 12 ounces of dates serves 7 people, as per the package label. 
-              Click the '+' icon to save your new ingredient to the database. It will then be available in the ingredient drop-down picker and you can add it to your meal.
-              The ingredient will be available to you any time you use the River-Planner application.
-            </p>
           </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
+          
+          <div class="card content-item quickstart-card">
             <span>09</span>
             <h4>Edit Meal Interface | Add Your New Ingredient to the Meal</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_05b.png" alt="Edit Meal Interface Add Your New Ingredient to the Meal" width = 300 height = 500>
-            </div>
-            <p>In this example, the user then selected their new ingredient (Dates) from the Add Ingredient drop-down selector and added 
-              them to the meal by clicking the '+' icon. The quantity is calculated based on the number of people entered. Click Save at the 
-              bottom of the interface to save your meal edits. Click Cancel to close the inerface without saving.
-            </p>
+            <img src="assets/img/instructions/step_05b.png" alt="Edit Meal Interface Add Your New Ingredient to the Meal" width = 300 height = 500>
+            <div class="card-body">
+              <p>In this example, the user then selected their new ingredient (Dates) from the Add Ingredient drop-down selector and added 
+                them to the meal by clicking the '+' icon. The quantity is calculated based on the number of people entered. Click Save at the 
+                bottom of the interface to save your meal edits. Click Cancel to close the inerface without saving.
+              </p>
+          </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>10</span>
             <h4>Create Meal Interface | Opening the Interface</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_06.png" alt="Create Meal Interface Opening the Interface" width = 300 height = 500>
+            <img src="assets/img/instructions/step_06.png" alt="Create Meal Interface Opening the Interface" width = 300 height = 500>
+            <div class="card-body">
+              <p>The Create New Meal Interface is accessed from the "Select Meals..." section by clicking "Create a New Meal".</p>
             </div>
-            <p>The Create New Meal Interface is accessed from the "Select Meals..." section by clicking "Create a New Meal".</p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>11</span>
             <h4>Create Meal Interface | Meal Information</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_06b.png" alt="Create Meal Interface Meal Information" width = 300 height = 500>
+            <img src="assets/img/instructions/step_06b.png" alt="Create Meal Interface Meal Information" width = 300 height = 500>
+            <div class="quickstart-img">
+              <p>Enter the basic meal information Meal Name, Meal Type, and Description. The description should list the main entree and any sides for clarity. 
+                Instructions on preparing the meal are entered elsewhere near the bottom of this form.
+              </p>
             </div>
-            <p>Enter the basic meal information Meal Name, Meal Type, and Description. The description should list the main entree and any sides for clarity. 
-              Instructions on preparing the meal are entered elsewhere near the bottom of this form.
-            </p>
-            <br/>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>12</span>
             <h4>Create Meal Interface | Add Ingredients to the Meal</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_06c.png" alt="Create Meal Interface Add Ingredients to the Meal" width = 300 height = 500>
+            <img src="assets/img/instructions/step_06c.png" alt="Create Meal Interface Add Ingredients to the Meal" width = 300 height = 500>
+            <div class="card-body">
+              <p>Add ingredients to your new meal: Adding and Creating Ingredients works the same in this interface as in the Edit Meal Interface, described above. 
+                Note that quantities are not part of the Create New Meal process, and are not displayed since this meal will apply to any number of people 
+                when using it later. If added to your current trip, the quantities will be calculated for your entered number of people, for example.
+              </p>  
             </div>
-            <p>Add ingredients to your new meal: Adding and Creating Ingredients works the same in this interface as in the Edit Meal Interface, described above. 
-              Note that quantities are not part of the Create New Meal process, and are not displayed since this meal will apply to any number of people 
-              when using it later. If added to your current trip, the quantities will be calculated for your entered number of people, for example.
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>13</span>
             <h4>Create Meal Interface | Tools and Instructions</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_06d.png" alt="Create Meal Interface Tools and Instructions" width = 300 height = 500>
+            <img src="assets/img/instructions/step_06d.png" alt="Create Meal Interface Tools and Instructions" width = 300 height = 500>
+            <div class="card-body">
+              <p>Enter the basic tools needed and instructions to prepare the meal. Each tool or preparation step should be separated by semi-colons.</p>
+              <br/>
+              <p>
+                Click Save at the bottom of the interface to save your new meal. The meal will now be available to you whenever you use the River-Planner 
+                application in the "Select Meals..." section under its Meal Type. Click Cancel to close the inerface without saving.
+              </p>
             </div>
-            <p>Enter the basic tools needed and instructions to prepare the meal. Each tool or preparation step should be separated by semi-colons.</p>
-            <br/>
-            <p>
-              Click Save at the bottom of the interface to save your new meal. The meal will now be available to you whenever you use the River-Planner 
-              application in the "Select Meals..." section under its Meal Type. Click Cancel to close the inerface without saving.
-            </p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>14</span>
             <h4>Export Shopping List and Menu | Opening the Interface</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_07.png" alt="Export Shopping List and Menu Opening the Interface" width = 300 height = 500>
+            <img src="assets/img/instructions/step_07.png" alt="Export Shopping List and Menu Opening the Interface" width = 300 height = 500>
+            <div class="card-body">
+              <p>The View and Download Interface is accessed from the "Customize Trip Menu..." section by clicking "View and Download".</p>
             </div>
-            <p>The View and Download Interface is accessed from the "Customize Trip Menu..." section by clicking "View and Download".</p>
-            <br/>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>15</span>
             <h4>Export Shopping List and Menu | View and Download Shopping List</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_07b.png" alt="Export Shopping List and Menu View and Download Shopping List" width = 300 height = 500>
+            <img src="assets/img/instructions/step_07b.png" alt="Export Shopping List and Menu View and Download Shopping List" width = 300 height = 500>
+            <div class="card-body">
+              <p>View the shopping list. Items are grouped by ingrdedient and quantities are summed up. "Meal Count" indicates how many 
+                meals the ingredient is used in. 
+              </p>
+              <p>
+                Click 'Export Shopping List' to download an HTML file of the shopping list. View this list with 
+                a browser on your mobile device while shopping for food.
+              </p>
             </div>
-            <p>View the shopping list. Items are grouped by ingrdedient and quantities are summed up. "Meal Count" indicates how many 
-              meals the ingredient is used in. 
-            </p>
-            <p>
-              Click 'Export Shopping List' to download an HTML file of the shopping list. View this list with 
-              a browser on your mobile device while shopping for food.
-            </p>
-            <br/>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
+          <div class="card content-item quickstart-card">
             <span>16</span>
             <h4>Export Shopping List and Menu | Cross out Shopping Items</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_07bb.png" alt="Export Shopping List and Menu Cross out Shopping Items" width = 300 height = 500>
+            <img src="assets/img/instructions/step_07bb.png" alt="Export Shopping List and Menu Cross out Shopping Items" width = 300 height = 500>
+            <div class="card-body">
+              <p>When viewing the downloaded HTML file of the shopping list in a browser (Microsoft Edge seems to work best), tap items to cross them out on the list.
+                If viewing the list in anything other than a browser, crossout is not supported. 
+              </p>
+              <p>
+                iPhone and Android phones differ in how to view an HTML file. The browser 
+                option is usually available right after downloading the file. You can always download the shopping list again from the application if needed, your crossouts 
+                will be remembered by the browser.
+              </p>
             </div>
-            <p>When viewing the downloaded HTML file of the shopping list in a browser (Microsoft Edge seems to work best), tap items to cross them out on the list.
-               If viewing the list in anything other than a browser, crossout is not supported. 
-            </p>
-            <p>
-              iPhone and Android phones differ in how to view an HTML file. The browser 
-               option is usually available right after downloading the file. You can always download the shopping list again from the application if needed, your crossouts 
-               will be remembered by the browser.
-            </p>
-            <br/>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
-            <span>13</span>
+          <div class="card content-item quickstart-card">
+            <span>17</span>
             <h4>Export Shopping List and Menu | View and Download Daily Menu</h4>
-            <div style="margin-bottom: 10px;">
-              <img src="assets/img/instructions/step_07d.png" alt="Export Shopping List and Menu View and Download Daily Menu" width = 300 height = 500>
+            <img src="assets/img/instructions/step_07d.png" alt="Export Shopping List and Menu View and Download Daily Menu" width = 300 height = 500>
+            <div class="card-body">
+              <p>Enter the basic tools needed and instructions to prepare the meal. Each tool or preparation step should be separated by semi-colons.</p>
+              <br/>
+              <p>
+                On-river Daily Menu does not have crossout functionality at this time.
+              </p>
             </div>
-            <p>Enter the basic tools needed and instructions to prepare the meal. Each tool or preparation step should be separated by semi-colons.</p>
-            <br/>
-            <p>
-              On-river Daily Menu does not have crossout functionality at this time.
-            </p>
-            <p>
-              iPhone and Android phones differ in how to view an HTML file. The browser 
-               option is usually available right after downloading the file. You can always download the shopping list again from the application if needed, your crossouts 
-               will be remembered by the browser.
-            </p>
           </div>
 
         </div>
@@ -629,7 +652,7 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3><i class="bi bi-heart-fill" style="color: red;"></i> Support</h3>
+            <h3><i class="bi bi-heart-fill custom-heart" style="color: red;"></i> Support</h3>
             <p> I am building this application for everyone, because I love wild river trips. If you share that sentiment, please consider a donation to help support this app.
             </p>
           </div>
@@ -660,6 +683,70 @@
       </div>
     </section><!-- End Donate Section -->
 
+    
+    <!-- ======= Disclaimer Section ======= -->
+    <section id="disclaimer" class="shiny clients section-bg">
+      <div class="section-title">
+        <h2>Disclaimer</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <p>River-Planner is designed to help plan a river trip, and the first phase of the application development is focussed on meal planning.
+              It is not designed to provide guidance on all aspects of planning a river trip or the intricacies and nuances of successful 
+              trip planning. There are many publicly available resources to help with this (see the river trip resources section!).
+            </p>
+            <p>The River-Planner application is copyrighted property of Datatime, LLC. Datatime, LLC is not responsible for your ability to 
+              plan or conduct a safe river trip. River trips are hazardous, including the hazards of food-borne illness and communicable illness 
+              among mebers of the group. It is your responsibility to store, prepare and serve food in a safe mannner. 
+            </p>
+            <p>
+              The River-Planner app stores your trip plan information for as many trips as you want to create until you delete them.
+              Your trip plans are only viewable by you, when logged into the application. Because this application is under development, 
+              it is possible, though unlikely, that your trip data could be temporarily unavailable, or the application is down 
+              for a short period of time. We do not anticipate this happening and will do everything possible to keep the application and 
+              data available at all times. If you are encountering a problem with the application at any time, please notify us at 
+              <strong>info@river-planner.com</strong>, or call <strong>385-347-9821</strong>.
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <img src="assets/img/slide/slide-boat-2.jpg" width="300px">
+          </div>   
+        </div>
+      </div>
+
+        
+    </section>
+
+    <!-- ======= Privacy Policy Section ======= -->
+    <section id="privacy">
+      <div class="section-title">
+        <h2>Privacy Policy</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <p>River-Planner is designed to provide a personalized, cloud-based application that stores your river trip planning work.
+            To make it personalized, our database stores the email address you use to create a login via our third-party authentication service,
+             Auth0. This service allows you to create a login using an email address and password, or you can login with your Google Account.
+            </p>
+            <p>
+              The email address you use to login, or your gmail address (if you login with Google), is the ONLY piece of information 
+              about you that is stored in the application. We do not share this email address with any other service or entity, and we 
+              will not send you email. We do not receive, store, or use any other information from your Google account, not even your name.
+            </p>
+            <p>Should you have any difficulties with the login process or your River-Planner profile, or if you have any questions about 
+              our storage and use of your login email address, please don't hesitate to contact us at <strong>info@river-planner.com</strong>, 
+              or call <strong>385-347-9821</strong>.
+            </p>
+          </div>
+          <div class="col-sm-3">
+            <img src="assets/img/slide/slide-boat-1.jpg" width="300px">
+          </div>  
+        </div>
+      </div>
+    </section>
+    
     <!-- ======= Cta Section ======= 
     <section id="cta" class="cta">
       <div class="container">
@@ -968,6 +1055,54 @@
       </div>
     </section><!-- End Contact Section -->
 
+    <!-- ======= Shiny Resources Section ======= -->
+
+    <section id="resources" class="shiny clients section-bg">
+      <div class="section-title">
+        <h2></h2>
+        <h2>River Trip Resources</h2>
+        <p>Here you will find links to external trip information resources, travel info, and motivation.</p>
+      </div>
+
+      <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide">
+              <a href="https://www.cbrfc.noaa.gov/rec/rec.php" target = "_blank">
+                 <img src="assets/img/resources/cbrfc.png" class="img-fluid" alt="Recreational river forecasts">
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="https://www.recreation.gov/search?q=river%20lottery" target = "_blank">
+                 <img src="assets/img/resources/rec-dot-gov.png" class="img-fluid" alt="Recreation dot gov river lotteries">
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="https://grcariverpermits.nps.gov/process_details.cfm" target = "_blank">
+                 <img src="assets/img/resources/gcnp.png" class="img-fluid" alt="Grand canyon river lottery">
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="https://www.wildmed.com/book-store/" target = "_blank">
+                 <img src="assets/img/resources/wma.png" class="img-fluid" alt="wilderness medicine bookstore">
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="https://www.mountainbuzz.com/" target = "_blank">
+                 <img src="assets/img/resources/mtn-buzz.png" class="img-fluid" alt="Mountain buzz community">
+              </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://www.americanwhitewater.org/" target = "_blank">
+               <img src="assets/img/resources/american-whitewater.svg" class="img-fluid" alt="American whitewater">
+            </a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+  </section>
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -975,13 +1110,14 @@
     <div class="container">
       <h3>River-Planner</h3>
       <p>Good Rivers | Good Food | Good Friends</p>
+      <!--
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
+        <a href="#" class="twitter" aria-label="Goto us on Twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook" aria-label="Goto us on Facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram" aria-label="Goto us on Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus" aria-label="Goto us on Skype"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin" aria-label="Goto us on Linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div> -->
       <div class="copyright">
         &copy; Copyright <strong><span>Datatime, LLC</span></strong>. All Rights Reserved
       </div>
@@ -995,7 +1131,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
